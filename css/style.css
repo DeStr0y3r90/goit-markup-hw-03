@@ -186,8 +186,7 @@ a{
    color: #FFFFFF;
    padding-top: 188px;
    padding-bottom: 188px;
-   width: 100%;
-   max-width: 496px;
+
 }
 
 .hero-title{
@@ -197,6 +196,9 @@ a{
    text-align: center;
    font-size: 56px;
    line-height: 1.07;
+   width: 100%;
+   max-width: 496px;
+
 }
 
 .orders{
