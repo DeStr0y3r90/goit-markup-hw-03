@@ -340,6 +340,10 @@ a{
    margin-bottom: 16px
 }
 
+.footer-list{
+   list-style-type: none;
+}
+
 .basement-studio{
    font-weight: bold;
    line-height: 21;
