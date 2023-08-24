@@ -224,8 +224,8 @@ a{
 /* Our Plan Section */
 
 .plan-block{
-
-
+   padding-top: 120px;
+   padding-bottom: 120px;
 }
 /*
 .second-section-title{
@@ -238,7 +238,21 @@ a{
 }*/
 
 .our-plan-block{
+   display: flex;
    list-style-type: none;
+
+}
+
+.plan-list{
+   gap: 24px; 
+}
+
+.plan-list:first-child{
+   flex-basis: calc((100% - 3 * 24px) / 4);
+}
+
+.plan-list:last-child{
+   margin-right: 0;
 }
 
 
