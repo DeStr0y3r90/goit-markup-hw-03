@@ -292,7 +292,7 @@ a{
    flex-basis: calc((100% - 72px) / 4);
 }
 
-.our-plan-block:first-child{
+.our-team-block:first-child{
    border-radius: 0px 0px 4px 4px;
 
 }
