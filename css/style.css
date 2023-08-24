@@ -396,10 +396,12 @@ a{
    color: #2E2F42;
    list-style-type: none;
    margin-bottom: 8px;
+   text-align: center;
 }
 
 .p-text{
    line-height: 1.5;
    letter-spacing: 0.02em;
    color: #434455;
+   text-align: center;
 }
