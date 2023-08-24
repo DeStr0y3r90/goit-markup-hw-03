@@ -240,6 +240,8 @@ a{
 .our-plan-block{
    display: flex;
    list-style-type: none;
+   gap: 24px;
+   flex-basis: calc((100% - 72px) / 4);
 
 }
 
