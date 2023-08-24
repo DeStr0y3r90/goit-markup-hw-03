@@ -249,7 +249,7 @@ a{
    gap: 24px; 
 }
 
-.plan-list:first-child{
+.our-plan-block:first-child{
    flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
