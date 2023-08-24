@@ -1,4 +1,4 @@
-h1, h2, h3, h4, p {
+h1, h2, h3, h4, h5, h6, p {
 	margin-top: 0;
 	margin-bottom: 0;
 }
@@ -9,14 +9,39 @@ ul, ol {
 	padding-left: 0;
 }
 
+img{
+   display: block;
+}
+
+.visually-hidden{
+   position: absolute;
+   width: 1px;
+   height: 1px;
+   margin: -1px;
+   border: 0;
+   padding: 0;
+   white-space: nowrap;
+   clip-path: inset(100%);
+   clip: rect(0 0 0 0);
+   overflow:hidden;
+}
+
+button{
+   cursor: pointer;
+}
+
 /*  Container */
 
-.container { 
-   max-width: 
-   padding-left:  
-   padding-right:  
-   margin-left:  
-   margin-right:  
+.container{ 
+   display: flex;
+   width: 100%;
+   max-width: 1158px;
+   margin-left: auto;
+   margin-right: auto;
+   padding-left: ;
+   padding-right: ;
+   align-items: center;
+   justify-content: space-between;
    }
 
 .p-text{
@@ -156,7 +181,7 @@ a{
 .plan-block{
 
 }
-
+/*
 .second-section-title{
    font-family: Roboto;
    font-weight: 500;
@@ -164,7 +189,7 @@ a{
    letter-spacing: 0.02em;
    line-height: 1.2;
    color: #2e2f42;
-}
+}*/
 
 .our-plan-block{
    list-style-type: none;
