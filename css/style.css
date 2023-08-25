@@ -223,6 +223,7 @@ a{
    color: #FFFFFF;
    width: 100%;
    max-width: 169px;
+   min-width: 169px;
    height: 56px;
    border: none;
    border-radius: 4px;
