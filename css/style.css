@@ -288,6 +288,10 @@ a{
    list-style-type: none;
 }
 
+.team-container{
+   padding: 32px 0;
+}
+
 .team{
    background-color: #FFFFFF;
    flex-basis: calc((100% - 72px) / 4);
