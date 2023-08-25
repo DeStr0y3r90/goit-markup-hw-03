@@ -367,23 +367,23 @@ a{
 }
 
 .basement-studio{
+   display: inline-block;
    font-weight: bold;
    line-height: 21;
    letter-spacing: 0.03em;
    font-size: 18;
    color: #F4F4FD;
+   margin-bottom: 16px;
 }
 
 .basement-text{
    color: #F4F4FD;
    line-height: 1.5;
    letter-spacing: 0.02em;
-   width: 100%;
    max-width: 264px;
 }
 
 .text-footer{
-   width: 100%;
    max-width: 264px
 }
 
