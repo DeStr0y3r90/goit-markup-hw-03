@@ -365,6 +365,9 @@ a{
    margin-bottom: 16px;
 }
 
+.link-footer{
+   display: inline-block;
+}
 
 .footer-list{
    list-style-type: none;
