@@ -167,6 +167,7 @@ a{
    display: flex;
    gap: 40px;
    margin-right: 40px;
+   flex-direction: row;
 }
 
 .address-block:last-child{
@@ -211,21 +212,22 @@ a{
 }
 
 .orders{
+   display: block;
    background-color: #4D5AE5;
-   font-family: Roboto;
    font-weight: 500;
    font-size: 16px;
    line-height: 24px;
-   letter-spacing: 0.04;
    cursor: pointer;
    font-family: "Roboto", sans-serif;
    letter-spacing: 0.04em;
    color: #FFFFFF;
    width: 100%;
-   min-width: 169px;
+   max-width: 169px;
    height: 56px;
    border: none;
    border-radius: 4px;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 /* Our Plan Section */
@@ -345,6 +347,13 @@ a{
 }
 
 .portfolio-container{
+   padding: 32px 16px;
+   border: 1px solid #e7e9fc;
+   border-top: none;
+   margin-bottom: 8px
+}
+
+.portfolio-content{
    padding: 32px 16px;
    border: 1px solid #e7e9fc;
    border-top: none;
