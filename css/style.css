@@ -28,6 +28,7 @@ img{
 
 button{
    cursor: pointer;
+   wid
 }
 
 /*  Container */
@@ -70,10 +71,13 @@ a{
 .header-nav{
    display: flex;
    align-items: center;
-   justify-content: center;
+   justify-content: space-between;
    flex-direction: row;
 }
 
+.main-head{
+   display: flex;
+}
 
 
 /* Webstudio-logo */
@@ -154,6 +158,8 @@ a{
    letter-spacing: 0.02em;
    font-style: normal;
    line-height: 1.5;
+   align-items: center;
+   justify-content: space-between;
 }
 
 .address-block{
@@ -199,6 +205,8 @@ a{
    line-height: 1.07;
    width: 100%;
    max-width: 496px;
+   margin-left: auto;
+   margin-right: auto;
 
 }
 
