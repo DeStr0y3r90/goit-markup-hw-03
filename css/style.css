@@ -246,7 +246,8 @@ a{
 }
 
 .plan-list{
-   gap: 24px; 
+   gap: 24px;
+   width: calc((100% - 72px) / 4);
 }
 
 .our-plan-block:first-child{
